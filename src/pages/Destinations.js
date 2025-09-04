@@ -12,7 +12,7 @@ const destinationsData = [
 const Destinations = () => {
   return (
     <div className="container my-5">
-      <h2 className="mb-4 text-center">Our Destinations</h2>
+      <h2 className="mb-4 text-center fw-bold">Our Destinations</h2>
       <div className="row g-4">
         {destinationsData.map((dest) => (
           <div className="col-md-4" key={dest.id}>

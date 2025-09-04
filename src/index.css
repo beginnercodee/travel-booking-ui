@@ -66,3 +66,24 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.btn-primary {
+  background-color: #ff6b6b;
+  border-color: #ff6b6b;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #ff4757;
+  border-color: #ff4757;
+  transform: translateY(-2px);
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
