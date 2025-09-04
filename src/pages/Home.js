@@ -22,17 +22,17 @@ const Home = () => {
       <section className="featured container my-5">
         <div className="row g-3 justify-content-center">
           <div className="col-md-3">
-            <input type="text" className="form-control" placeholder="From" />
+            <input type="text" className="form-control rounded-pill shadow-sm" placeholder="From" />
           </div>
           <div className="col-md-3">
-            <input type="text" className="form-control" placeholder="To" />
+            <input type="text" className="form-control rounded-pill shadow-sm" placeholder="To" />
           </div>
           <div className="col-md-3">
-            <input type="date" className="form-control" />
+            <input type="date" className="form-control rounded-pill shadow-sm" />
           </div>
           <div className="col-md-2">
-            <button className="btn btn-primary w-100">
-              <FaPlane /> Search
+            <button className="btn btn-primary rounded-pill w-100 shadow-sm">
+              <FaPlane className="me-2" /> Search
             </button>
           </div>
         </div>

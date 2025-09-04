@@ -25,7 +25,7 @@ Travelers: ${formData.travelers}`);
 
   return (
     <div className="container my-5">
-      <h2 className="mb-4 text-center">Book Your Trip</h2>
+      <h2 className="mb-4 text-center fw-bold">Book Your Trip</h2>
       <form onSubmit={handleSubmit} className="mx-auto" style={{ maxWidth: "500px" }}>
         <div className="mb-3">
           <label htmlFor="name" className="form-label">Name</label>
