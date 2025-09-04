@@ -46,13 +46,13 @@ const Home = () => {
             <div className="card h-100 shadow-sm rounded-4">
               <img
                 src="/images/destination1.jpg"
-                className="card-img-top"
+                className="card-img-top rounded-top-4"
                 alt="Destination 1"
               />
               <div className="card-body text-center">
                 <h5 className="card-title">Paris</h5>
                 <p className="card-text">$1200 per person</p>
-                <button className="btn btn-primary">Book Now</button>
+                <button className="btn btn-primary w-100 rounded-pill shadow-sm">Book Now</button>
               </div>
             </div>
           </div>
@@ -67,7 +67,7 @@ const Home = () => {
               <div className="card-body text-center">
                 <h5 className="card-title">Tokyo</h5>
                 <p className="card-text">$1500 per person</p>
-                <button className="btn btn-primary">Book Now</button>
+                <button className="btn btn-primary w-100 rounded-pill shadow-sm">Book Now</button>
               </div>
             </div>
           </div>
@@ -82,7 +82,7 @@ const Home = () => {
               <div className="card-body text-center">
                 <h5 className="card-title">New York</h5>
                 <p className="card-text">$1000 per person</p>
-                <button className="btn btn-primary">Book Now</button>
+                <button className="btn btn-primary w-100 rounded-pill shadow-sm">Book Now</button>
               </div>
             </div>
           </div>
