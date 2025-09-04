@@ -16,16 +16,16 @@ const Destinations = () => {
       <div className="row g-4">
         {destinationsData.map((dest) => (
           <div className="col-md-4" key={dest.id}>
-            <div className="card h-100">
+            <div className="card h-100 rounded-4 shadow-sm">
               <img
                 src={dest.image}
-                className="card-img-top"
+                className="card-img-top rounded-top-4"
                 alt={dest.name}
               />
               <div className="card-body text-center">
                 <h5 className="card-title">{dest.name}</h5>
                 <p className="card-text">{dest.price} per person</p>
-                <button className="btn btn-primary">Book Now</button>
+                <button className="btn btn-primary w-100 rounded-pill shadow-sm">Book Now</button>
               </div>
             </div>
           </div>
