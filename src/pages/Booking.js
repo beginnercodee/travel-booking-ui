@@ -31,7 +31,7 @@ Travelers: ${formData.travelers}`);
           <label htmlFor="name" className="form-label">Name</label>
           <input 
             type="text" 
-            className="form-control" 
+            className="form-control rounded-pill shadow-sm" 
             id="name" 
             name="name" 
             value={formData.name} 
@@ -44,7 +44,7 @@ Travelers: ${formData.travelers}`);
           <label htmlFor="email" className="form-label">Email</label>
           <input 
             type="email" 
-            className="form-control" 
+            className="form-control rounded-pill shadow-sm" 
             id="email" 
             name="email" 
             value={formData.email} 
@@ -57,7 +57,7 @@ Travelers: ${formData.travelers}`);
           <label htmlFor="travelDate" className="form-label">Travel Date</label>
           <input 
             type="date" 
-            className="form-control" 
+            className="form-control rounded-pill shadow-sm" 
             id="travelDate" 
             name="travelDate" 
             value={formData.travelDate} 
@@ -70,7 +70,7 @@ Travelers: ${formData.travelers}`);
           <label htmlFor="travelers" className="form-label">No. of Travelers</label>
           <input 
             type="number" 
-            className="form-control" 
+            className="form-control rounded-pill shadow-sm" 
             id="travelers" 
             name="travelers" 
             min="1" 
@@ -80,7 +80,7 @@ Travelers: ${formData.travelers}`);
           />
         </div>
 
-        <button type="submit" className="btn btn-primary w-100">Submit Booking</button>
+        <button type="submit" className="btn btn-primary w-100 rounded-pill shadow-sm">Submit Booking</button>
       </form>
     </div>
   );

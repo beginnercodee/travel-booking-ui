@@ -84,7 +84,7 @@ button:focus-visible {
 }
 
 .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-5px) scale(1.03);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -93,16 +93,12 @@ button:focus-visible {
   font-size: 1rem;
 }
 
-.btn-primary {
-  height: 50px;
+textarea.form-control {
+  height: auto;
   font-size: 1rem;
 }
 
-.card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-5px) scale(1.03);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+.btn-primary {
+  height: 50px;
+  font-size: 1rem;
 }
